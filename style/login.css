@@ -1,0 +1,96 @@
+.card-container.card {
+    max-width: 380px;
+    padding: 30px 40px;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+
+.container {
+    position: relative;
+    bottom: 90%;
+
+    right: 0%;
+
+}
+
+h2 {
+    color: white;
+}
+
+.card {
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    background-color: #404246;
+    top: 50%;
+
+
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin /*button*/
+{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+}
+
+.panel {
+    background-color: #222222;
+}
+
+.btn {
+    cursor: pointer;
+    color: darkslategray;
+}
+
+#login-card {
+    top: 80px;
+}
+
+
+.center-align {
+    text-align: center;
+}
+
+#login-card.card.card-container {
+    background-color: gray;
+    position: inherit;
+}
+
+
+#register-form .card-container {
+    transform: translate(0%, 14%);
+    background: #808080;
+}
+
+#register-info {
+    color: #b3b0b6;
+}
